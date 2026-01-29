@@ -47,7 +47,7 @@ DOT_TO_DASH = {"BRK.B": "BRK-B", "BF.B": "BF-B", "PBR.A": "PBR-A", "EBR.B": "EBR
 
 BASE_TICKERS = [
     "SPY", "QQQ", "DIA", "IWM",
-    "XLY", "XLP", "XLF", "XLV", "XLI", "XLB", "XLK", "XBI", "SMH", "XLC", "XLU",
+    "XLY", "XLP", "XLF", "XLV", "XLI", "XLB", "XLK", "XBI", "SMH","IGV", "XLC", "XLU",
     "XME", "GDX", "URA", "XOP", "XHB", "XLRE", "XRT",
     "IBIT", "BIL",
     "EFA", "VGK", "VEA", "EEM", "EUFN",
