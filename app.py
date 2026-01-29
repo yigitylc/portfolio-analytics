@@ -1051,7 +1051,7 @@ def process_portfolio(
 
 
 def main():
-    st.title("Advanced Portfolio Analytics Dashboard")
+    st.title("Portfolio Analytics Dashboard")
     st.markdown("**Compare two portfolios side-by-side: cumulative returns, drawdowns, Sharpe, Beta, correlations, and more.**")
 
     # Build ticker universe
