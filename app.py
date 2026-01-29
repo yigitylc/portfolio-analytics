@@ -1126,15 +1126,6 @@ def main():
     st.sidebar.markdown("---")
     analyze = st.sidebar.button("Analyze", type="primary", use_container_width=True)
 
-    # Self-test expander
-    with st.sidebar.expander("Self-Test"):
-        if st.button("Run Self-Test", key="selftest"):
-            results = run_self_test()
-            for test_name, passed, detail in results:
-                icon = "PASS" if passed else "FAIL"
-                st.text(f"[{icon}] {test_name}")
-                st.caption(detail)
-
     if not analyze:
         st.info("Configure portfolios in the sidebar and click Analyze.")
         return
